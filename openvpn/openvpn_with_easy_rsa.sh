@@ -44,7 +44,7 @@ echo "<ca>" >> clt.ovpn
 cat ca.crt >> clt.ovpn
 echo "</ca>" >> clt.ovpn
 echo "<cert>" >> clt.ovpn
-cat clt.crt >> ctl.ovpn
+cat clt.crt >> clt.ovpn
 echo "</cert>" >> clt.ovpn
 echo "<key>" >> clt.ovpn
 cat clt.key >> clt.ovpn
